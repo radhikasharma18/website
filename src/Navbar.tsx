@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="absolute w-full flex justify-between items-center text-white bg-transparent px-6 py-4 z-[100]">
+    <div className="absolute w-full flex justify-between items-center text-white bg-transparent px-6 py-4 z-[100] border-b-[0.5px] border-e-red-50">
       {/* Logo */}
       <div className="flex-1 font-bold text-3xl">MSFIN</div>
       
